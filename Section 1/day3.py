@@ -62,5 +62,3 @@ print(f'Your name is {user_name}, You are {user_age}\n')
 user_age2 = input("Enter your age: ")
 print(f"You have lived for {user_age2 * 12} months")    # here the input is a string.
 print(f"You have lived for {int(user_age2) * 12} months\n") 
-
-# Booleans
