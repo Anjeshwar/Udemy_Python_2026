@@ -133,3 +133,10 @@ print(subjects)
 
 average = total/subjects
 print(average)
+
+print("---------------------\n")
+
+# join
+mobiles = ['Realme', 'Iphone', 'Samsung']
+comma_seperated = ", ".join(mobiles)
+print(f'The mobiles which perform good are {comma_seperated}.')
