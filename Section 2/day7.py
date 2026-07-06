@@ -56,3 +56,5 @@ for status in cars:
     print(f"This car is {status}")
     print("Shipping new car to the customer")
     
+print("\n")
+print("Day 7 is completed...")
