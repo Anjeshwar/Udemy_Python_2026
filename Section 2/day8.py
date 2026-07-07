@@ -52,3 +52,5 @@ for n in range(2, user_input):
         break
 else:
     print(f"{user_input} is a prime number")
+
+print("Done for the day")
