@@ -1,4 +1,4 @@
-# Functions & return values, Default parameter values
+# Functions & return values, Default parameter values, Named Arguments, Seperator
 
 # Return - once we use return keyword, the next set of lines in the function will not execute and once we are returning the value it get store in the funtion and not get printed. we have to print it in another function or outside the function
 bikes = [
@@ -44,4 +44,46 @@ def divide(x, y):               # x, y are parameters which are receiving from f
     else:
         return x/y
 
-print(divide(a, b))             # a&b are arguments passing to the function
+print(divide(a, b))             # a&b are arguments passing to the function. # And we need to print the function if we are only returning the values in the functions
+
+
+
+print("\n--------------\n")
+
+# -----------------------------------------------------------------
+
+
+# Default parameter values
+
+def add(x, y = 5):   # default parameter
+    sum = x+y
+    return sum
+
+print(add(10))      # 10 will be assigned to x
+
+
+def sub(x, y=2):    # default parameter
+    minus = x-y
+    return minus
+
+print(sub(5, 1))         # although y has a default parameter-2, it is replaced by 1
+
+print("\n--------------\n")
+
+# -----------------------------------------------------------------
+
+# Named Arguments
+
+def mul(x, y=1):
+    cross = x*y
+    return cross
+print(mul(x=10, y=5))      # x=10 & y=5, if we are again using variable and value to pass to function, these are called "Named Arguments"
+
+print("\n--------------\n")
+
+# -----------------------------------------------------------------
+
+# Seperator
+print(1, 2, 3, 4, 5)
+
+print(1, 2, 3, 4, 5, sep="-")
