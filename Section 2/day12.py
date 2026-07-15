@@ -19,7 +19,9 @@ user_details()
 
 print("\n--------------\n")
 
-# Arguments & Parameters
+# Arguments & Parameters:
+# Parameters are the variables listed in a function's definition. They act as placeholders for the values the function will receive.
+# Arguments are the actual values (or variables containing values) that you pass when calling the function.
 def cars(fav_car):      # parameter - fav_car
     print(f"My favourite car is {fav_car}")
     
