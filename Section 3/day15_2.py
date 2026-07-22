@@ -1,6 +1,6 @@
 # Project 1 - Movies Collection app
 
-# Includes Adding movies, Viewing all movies, Searching movies and exit
+# Included with Adding movies, Viewing all movies, Searching movies and exit
 
 movies = [
     {
